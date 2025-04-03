@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 playButton.addEventListener("click", function () {
 	video.play();
+	volumeDisplay.textContent = volumeSlider.value + "%";
 });
 
 pauseButton.addEventListener("click", function () {
